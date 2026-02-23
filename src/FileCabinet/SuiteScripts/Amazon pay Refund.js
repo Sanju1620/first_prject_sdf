@@ -8,7 +8,7 @@ define(['N/record', 'N/https', 'N/url', 'N/search'],
 
         const beforeLoad = (scriptContext) => {
             var refundRecord = scriptContext.newRecord;
-            log.debug('refundRecord from SDF deployment testing processs', refundRecord)
+            log.debug('refundRecord from SDF deployment testing processsing', refundRecord)
             var paymentMethod = refundRecord.getValue({ fieldId: 'paymentmethod' });
             log.debug('paymentMethod', paymentMethod)
 
